@@ -1,4 +1,4 @@
-@extends('layouts')
+@extends('products.layouts')
 
 @section('content')
 
@@ -18,7 +18,7 @@
                 <table class="table table-striped table-bordered">
                     <thead>
                       <tr>
-                        <th scope="col">S#</th>
+                        <th scope="col">No</th>
                         <th scope="col">Code</th>
                         <th scope="col">Name</th>
                         <th scope="col">Quantity</th>
